@@ -1,0 +1,22 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  color: #F3EAE0;
+  font-family: 'Karla', system-ui, sans-serif;
+  /* Digital Living Room: a lamp-lit corner glowing warm against an evening-brown wall. */
+  background-color: #241C18;
+  background-image:
+    radial-gradient(ellipse 900px 700px at 10% -5%, rgba(217, 164, 65, 0.16), transparent 60%),
+    radial-gradient(ellipse 700px 600px at 100% 100%, rgba(143, 191, 135, 0.06), transparent 55%);
+  background-attachment: fixed;
+}
+
+a { color: inherit; }
+input, button, select, textarea { font-family: inherit; }
+
+h1, h2, h3 {
+  font-family: 'Fraunces', Georgia, serif;
+}
